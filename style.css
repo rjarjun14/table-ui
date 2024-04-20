@@ -1,0 +1,253 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff5eb;
+   
+}
+
+.container{
+
+    width: 100%;
+    height: auto;
+    background-color: #fff5eb;
+
+}
+.container-web{
+
+    width: 100%;
+    height: auto;
+   
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 20px;
+}
+
+
+
+.newbar{
+
+    width: 100%;
+    height: 50px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 10px;
+    padding-inline: 20px;
+    justify-content: space-between;
+    color: rgb(59, 80, 47);
+    
+}
+
+.shop{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.log{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.mini-container{
+
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.808);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.image-text{
+    width: 100%;
+    display: flex;
+}
+.image{
+    width: 60%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg{
+    width: 80%;
+    height: 450px;
+    background-image: url(./chair-image.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.text{
+
+    width: 60%;
+    height: 650px;
+    border-top-right-radius: 10px;
+    padding-top: 80px;
+    padding-left: 30px;
+    border-left: 1px solid grey;
+}
+
+.text h1{
+    font-size: 60px;
+    margin-top: 15px;
+  
+}
+.text p{
+    font-size: 20px;
+    width: 550px;
+    line-height: 28px;
+    margin-top: 15px;
+  
+}
+.num{
+
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.off{
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.off button{
+
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.num h5{
+
+    font-size: 20px;
+}
+.num h5 span{
+
+    text-decoration: line-through;
+    opacity: 0.6;
+    
+}
+.add{
+
+    width: 550px;
+
+
+    margin-top: 60px;
+    display: flex;
+}
+.add .btn{
+
+    width: 180px;
+    height: 60px;
+    display: flex;
+    border-radius: 10px;
+    
+}
+.btn div{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.cart button{
+
+    width: 340px;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+    background-color: rgb(59, 80, 47);
+    color: white;
+    border: none;
+}
+.card{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 30px;
+    font-size: 18px;
+}
+.truck{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 30px;
+    font-size: 20px;
+}
+.option{
+    margin-top: 30px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.task{
+
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.task div{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(128, 128, 128, 0.76);
+    border-top: none;
+       
+}
+.small{
+
+    width: 250px;
+    height: 80px;
+    position: relative;
+    top: 450px;
+    left: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.sm-1{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./chair-image.jpg);
+}
+.sm-2{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-image: url(./small-image.webp);
+    background-position: center;
+    background-size: cover;
+   
+}
+.sm-3{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./small-2.avif);
+    
+    
+}
